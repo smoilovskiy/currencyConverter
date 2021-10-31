@@ -1,0 +1,31 @@
+.header__logo {
+  margin-left: 98px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.header__logo-icon {
+  // width: 28px;
+  // height: 25px;
+  margin-right: 9px;
+}
+
+.header__logo-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1F1E25;
+}
+
+.footer__address {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #707C87;
+  width: 252px;
+}

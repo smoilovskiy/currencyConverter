@@ -1,0 +1,165 @@
+
+.slide1 {
+  padding: 80px 250px 80px 250px;
+  width: 1366px;
+  height: 400px;
+  background: 
+  linear-gradient(180.24deg, rgba(32, 39, 179, 0) 36.31%, #2027B3 99.79%),
+  #2C36F2,
+  
+  ;
+}
+
+.slide1__inner {
+  // width: 866px;
+  height: 240px;
+  position: relative;
+}
+
+.slide1__container--img1 {
+  width: 320px;
+  height: 182px;
+  position: absolute;
+  top: -15px;
+  right: -20px;
+}
+
+.slide1__container--img2 {
+  width: 320px;
+  height: 182px;
+  position: absolute;
+  bottom: 15px;
+  right: 80px;
+}
+
+.slide1__title {
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  color: #F6F7FF;
+}
+
+.slide1__subtitle {
+  margin: 0;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #E0E1EA;
+}
+
+.slide1__link {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  background-color: #F6F7FF;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: #1F1E25;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.slide2 {
+  position: relative;
+  width: 1366px;
+  height: 400px;
+}
+
+.slide2__title {
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  left: 268px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  color: #1F1E25;
+}
+
+.slide2__subtitle {
+  margin: 0;
+  position: absolute;
+  top: 180px;
+  left: 268px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #2B3C4F;
+}
+
+.slide3 {
+  position: relative;
+  width: 1366px;
+  height: 400px;
+}
+
+.slide3__title {
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  left: 268px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  color: #1F1E25;
+}
+
+.slide3__subtitle {
+  margin: 0;
+  position: absolute;
+  top: 180px;
+  left: 268px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #2B3C4F;
+}
+
+.slide3__link {
+  position: absolute;
+  top: 240px;
+  left: 268px;
+  background-color: #2C36F2;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: #F6F7FF;
+  padding: 18px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+

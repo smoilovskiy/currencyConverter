@@ -1,0 +1,515 @@
+.calculator__container {
+  margin: 0 auto;
+  width: 1170px;
+  position: relative;
+}
+
+.calculator__title {
+  // margin-top: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 41px;
+  line-height: 57px;
+  color: #1F1E25;
+}
+
+.calculator__steps-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  color: #1F1E25;
+}
+
+.step-selector {
+  width: 600px;
+  height: 60px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1F1E25;
+  padding-left: 20px;
+}
+
+.step-option {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 60px;
+  color: #1F1E25;
+}
+
+.credit-selector-condensed {
+  width: 600px;
+  height: 60px;
+  border: 1px solid #1F1E25;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.credit-selector__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1F1E25;
+  margin-left: 20px;
+}
+
+.credit-selector__title--expanded {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1F1E25;
+  margin-left: 20px;
+}
+
+.credit-selector__arrow {
+  margin-right: 20px;
+}
+
+.credit-selector__arrow:hover {
+  cursor: pointer;
+}
+
+.credit-selector-expanded-container {
+  width: 600px;
+  height: 180px;
+  border: 1px solid #1F1E25;
+  border-radius: 4px;
+  display: block;
+  cursor: pointer;
+}
+
+.credit-cost-container-wrapper {
+    width: 600px;
+  height: 60px;
+  border: 1px solid #1F1E25;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.credit-selector-expanded {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mortgage-credit-lending {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #0A1E32;
+}
+
+.car-credit-lending {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #C1C2CA;
+}
+
+.mortgage-credit-lending:hover,
+.car-credit-lending:hover {
+  cursor: pointer;
+}
+
+.credit-params-subtitle {
+  margin: 25px 0 10px 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #394959;
+}
+
+.minus-img {
+  margin-left: 20px;
+}
+
+.plus-img {
+  margin-right: 20px;
+}
+
+.minus-img:hover,
+.plus-img:hover {
+  cursor: pointer;
+}
+
+.credit-cost {
+  width: 83px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1F1E25;
+}
+
+.credit-cost:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.loan-terms:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+
+.credit-cost-container {
+  display: flex;
+  align-items: center;
+
+  height: 20px;
+}
+
+.credit-cost-currency {
+  height: 20px;
+  margin-top: 15px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  // line-height: 25px;
+  color: #1F1E25;
+} 
+
+.credit-cost-range {
+  margin-top: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #707C87;
+}
+
+.our-offer {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  background: #F6F7FF;
+  border-radius: 4px;
+  width: 500px;
+  height: 389px;
+  // padding: 60px;
+}
+
+.our-offer__inner {
+  margin: 60px;
+  display: flex;
+}
+
+.our-offer__inner-left {
+  width: 220px;
+  
+}
+
+.our-offer__inner-right {
+  margin-top: 30px;
+}
+
+.our-offer__title {
+  margin-top: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  color: #1F1E25;
+}
+
+.amount-value {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  color: #1F1E25;
+  margin-bottom: 0;
+}
+
+.amount-subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #394959;
+  margin: 0;
+}
+
+.our-offer__link-bttn {
+  position: absolute;
+  left: 60px;
+  bottom: 55px;
+  background-color: #2C36F2;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: #F6F7FF;
+  padding: 15px 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.apply-form-container {
+  width: 770px;
+  height: 722px;
+  background: #F6F7FF;
+  border-radius: 4px;
+  margin: 50px auto;
+  display: none;
+}
+
+.apply-form__inner {
+  margin: 70px;
+  display: block;
+}
+
+.apply-form__title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apply-form__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  color: #1F1E25;
+  margin-top: 70px;
+}
+
+.apply-form__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.apply-form__data-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;  
+  color: #394959;
+}
+
+.apply-form__data-value {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;  
+  color: #1F1E25;
+}
+
+.apply-form__customer-name {
+  margin-top: 25px;
+  height: 60px;
+  width: 605px;
+  background: #F6F7FF;
+  border: 1px solid #0A1E32;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #707C87;
+}
+
+.apply-form__customer-contacts {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.apply-form__customer-phone {
+  height: 60px;
+  width: 280px;
+  background: #F6F7FF;
+  border: 1px solid #0A1E32;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #707C87;
+}
+
+.apply-form__customer-email {
+  height: 60px;
+  width: 280px;
+  background: #F6F7FF;
+  border: 1px solid #0A1E32;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #707C87;
+}
+
+.apply-form__submit-button {
+  position: absolute;
+  left: 460px;
+  bottom: 55px;
+  background-color: #2C36F2;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: #F6F7FF;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.range-slider-container {
+  position: relative;
+  width: 600px;
+  height: 35px;
+  margin-bottom: 25px;
+}
+
+.range-slider {
+  width: 600px;
+  height: 1px;
+  -webkit-appearance: none;
+}
+
+
+.range-slider::-webkit-slider-thumb {
+  height: 14px;
+  width: 14px;
+  border-radius: 14px;
+  background:  #2C36F2;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+
+.range-slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1px;
+  cursor: pointer;
+  background: #C1C2CA;
+}
+
+.range-slider-marker-min {
+  position: absolute;
+  left: 3px;
+  top: 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #707C87;
+}
+
+.range-slider-marker-max {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #707C87;
+}
+
+.chekbox-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.checkbox-container-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1F1E25;
+}
+
+.initial-fee-container {
+  width: 600px;
+  height: 60px;
+  border: 1px solid #1F1E25;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.loan-terms {
+  width: 33px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1F1E25;
+}
+
+.loan-terms-years {
+  height: 20px;
+  margin-top: 15px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  // line-height: 25px;
+  color: #1F1E25;
+} 

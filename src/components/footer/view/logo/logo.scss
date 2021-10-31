@@ -1,0 +1,22 @@
+.footer__logo-container {
+  display: block;
+}
+
+.footer__logo {
+  display: flex;
+}
+
+.footer__logo-icon {
+  // width: 28px;
+  // height: 25px;
+  margin-right: 9px;
+}
+
+.footer__logo-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #1F1E25;
+}

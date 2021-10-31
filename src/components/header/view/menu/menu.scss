@@ -1,0 +1,17 @@
+.menu__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu__item {
+  margin-right: 25px;
+}
+
+.menu__item-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1F1E25;
+}
